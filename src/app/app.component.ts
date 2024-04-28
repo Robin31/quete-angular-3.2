@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angularquests3.2';
+  title: string = 'Ma liste de films';
+  showMovies: boolean = true;
 }
